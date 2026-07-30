@@ -13,4 +13,5 @@ const (
 	RideStartedV1           = "ride.started.v1"
 	RideEndedV1             = "ride.ended.v1"
 	RideCompletedV1         = "ride.completed.v1"
+	RideCancelledV1         = "ride.cancelled.v1"
 )
