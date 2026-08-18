@@ -5,13 +5,14 @@
 package kafkatopics
 
 const (
-	DriverLocationUpdatedV1 = "driver.location.updated.v1"
-	RideRequestedV1         = "ride.requested.v1"
-	RideAssignedV1          = "ride.assigned.v1"
-	RideUnassignedV1        = "ride.unassigned.v1"
-	DriverJobOfferCreatedV1 = "driver.job_offer.created.v1"
-	RideStartedV1           = "ride.started.v1"
-	RideEndedV1             = "ride.ended.v1"
-	RideCompletedV1         = "ride.completed.v1"
-	RideCancelledV1         = "ride.cancelled.v1"
+	DriverLocationUpdatedV1   = "driver.location.updated.v1"
+	RideRequestedV1           = "ride.requested.v1"
+	RideAssignedV1            = "ride.assigned.v1"
+	RideUnassignedV1          = "ride.unassigned.v1"
+	DriverJobOfferCreatedV1   = "driver.job_offer.created.v1"
+	DriverJobOfferWithdrawnV1 = "driver.job_offer.withdrawn.v1"
+	RideStartedV1             = "ride.started.v1"
+	RideEndedV1               = "ride.ended.v1"
+	RideCompletedV1           = "ride.completed.v1"
+	RideCancelledV1           = "ride.cancelled.v1"
 )
