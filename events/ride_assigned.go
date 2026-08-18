@@ -19,6 +19,7 @@ type RideAssignedV1 struct {
 	PickupLng     float64   `json:"pickup_lng"`
 	DropoffLat    float64   `json:"dropoff_lat"`
 	DropoffLng    float64   `json:"dropoff_lng"`
+	StartPin      string    `json:"start_pin,omitempty"`
 	VehicleColor  string    `json:"vehicle_color,omitempty"`
 	VehiclePlate  string    `json:"vehicle_plate,omitempty"`
 	VehicleModel  string    `json:"vehicle_model,omitempty"`
